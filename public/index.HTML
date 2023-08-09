@@ -11,67 +11,50 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 14px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body class="mx-auto bg-primary-pale font-body">
-  
-  <main class="h-screen flex justify-center items-center overflow-hidden">
-
-    <div class="relative container mx-auto flex flex-col items-center my-auto w-96 bg-white rounded-xl" >
+  <main class="h-screen flex flex-col justify-center items-center overflow-hidden ">
+    <div class="relative container mx-auto flex flex-col items-center w-80 my-auto md:w-96 bg-white rounded-xl" >
       <!-------IMG-------------------->
       <div class="overflow-hidden">
         <img src="/images/illustration-hero.svg" alt="" class="overflow-hidden rounded-t-xl">
       </div>
 
        <!-------Main Text-------------------->
-      <div class="text-center p-10">
-        <h1 class="text-neutral-darkyblue text-2xl font-extrabold pb-5">Order Summary</h1>
-        <p class="w-80 max-w-md text-neutral-coolblue">You can now listen to millions of songs, audiobooks, and podcasts on any 
+      <div class="text-center m-8 md:p-10 md:m-0">
+        <h1 class="text-neutral-darkyblue  text-2xl pb-5 md:text-3xl font-extrabold ">Order Summary</h1>
+        <p class="w-64 md:w-80 md:max-w-md lg:w-80 text-neutral-coolblue">You can now listen to millions of songs, audiobooks, and podcasts on any 
           device anywhere you like!</p>
       </div>
 
        <!-------Music Plan Section-------------------->
-      <div class="bg-neutral-verypale flex flex-row w-80 p-5 mb-7 rounded-lg gap-4 items-center">
+      <div class="bg-neutral-verypale flex flex-row  w-72 items-center rounded-lg  p-4 gap-4 mb-6 md:w-80 md:p-5 md:mb-7 md:gap-4">
         <div>
-          <img src="/images/icon-music.svg" alt="" class="w-11">
+          <img src="/images/icon-music.svg" alt="" class="w-16:md:w-4">
         </div>
         <div>
-          <h3 class="font-extrabold text-neutral-darkyblue">Annual Plan</h3>
-          <h3 class="text-neutral-coolblue">$59.99/Year</h3>
+          <h3 class=" text-sm font-extrabold text-neutral-darkyblue">Annual Plan</h3>
+          <h3 class="text-sm text-neutral-coolblue">$59.99/Year</h3>
         </div>
-        <div class="text-xs ml-16 underline text-primary-brightblue font-bold">
+        <div class="text-sm ml-10 md:ml-16 underline text-primary-brightblue font-bold">
           <h4 class="cursor-pointer hover:brightness-200">Change</h4>
         </div>
       </div>
 
        <!-------Payment Button-------------------->
-      <div class="flex flex-col items-center mb-10">
-        <button class="bg-primary-brightblue w-80 p-3 rounded-lg mb-5 text-white hover:shadow-xl hover:brightness-150" ><a href="/">Proceed to Payment</a></button>
+      <div class="flex flex-col items-center mb-8 md:mb-10">
+        <button class="bg-primary-brightblue w-72 p-3 mb-5 md:w-80 rounded-lg md:mb-5 text-white hover:shadow-xl hover:brightness-150" ><a href="/">Proceed to Payment</a></button>
         <h4 class=" cursor-pointer text-neutral-coolblue font-bold text-sm hover:text-neutral-darkyblue">Cancel Order</h4>
       </div>
 
     </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/khadijah-clark-7955bb199/">Khadijah Clark</a>.
+    </div>
+  </body>
   </main>
-    <!-------------Order Summary-------------------
-
-
-  ---You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  ------------->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
 </html>
