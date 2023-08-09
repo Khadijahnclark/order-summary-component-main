@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/FluffyKas/order-summary-component)
+- Solution URL: [Add solution URL here](https://github.com/Khadijahnclark/order-summary-component-main)
 - Live Site URL: [Add live site URL here](https://main--incomparable-gnome-1a4500.netlify.app/)
 
 ## My process
